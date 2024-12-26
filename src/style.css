@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "IRANYekanBold";
+        src: url('./assets/fonts/IRANYekanBold.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: "IRANYekanMedium";
+        src: url('./assets/fonts/IRANYekanMedium.ttf') format('truetype');
+    }
+}
