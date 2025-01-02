@@ -1,14 +1,14 @@
 <template>
-    <footer id="footer_bg" class="p-6 font-IRANYekanMedium max-w-[1200px] mx-auto">
-        <ul class="grid grid-cols-4 gap-x-10 border-b-2 pb-3 border-[#eaeffb]">
-            <li class="border-l-2 border-[#eaeffb] col-span-2">
+    <footer id="footer_bg" class="p-3 tablet:p-6 font-IRANYekanMedium max-w-[1200px] mx-auto">
+        <ul class="grid grid-cols-1  child:py-5 mobile:grid-cols-2 desktop:grid-cols-4 gap-x-10 border-b-2 pb-3 border-[#eaeffb]">
+            <li class="desktop:border-l-2  pb-10 border-[#eaeffb] mobile:col-span-2">
                 <div class="max-w-[500px]">
-                    <img src="../assets/images/logo_header.png" alt="logo_footer">
-                    <p class="text-right text-text_small mt-2">سیچک اولین سوشال تریدینگ ایرانی است که یک دستیار فوق العاده برای تحلیلگران و سرمایه گذاران می باشد، کمک می کند راندمان فعالیت خود در بازار های مالی را افزایش دهند</p>
+                    <img src="../assets/images/logo_header.png" class="mx-auto mobile:m-0" alt="logo_footer">
+                    <p class=" text-center mobile:text-right text-text_small mt-2">سیچک اولین سوشال تریدینگ ایرانی است که یک دستیار فوق العاده برای تحلیلگران و سرمایه گذاران می باشد، کمک می کند راندمان فعالیت خود در بازار های مالی را افزایش دهند</p>
                 </div>
             </li>
-            <li class="border-l-2 border-[#eaeffb]">
-                <div class="flex gap-y-3 flex-col justify-center items-center flex-initial">
+            <li class="mobile:border-l-2 border-[#eaeffb]">
+                <div class="mobile:max-w-[300px] flex gap-y-3 flex-col justify-center items-center flex-initial">
                     <span class="flex items-center gap-x-1 bg-[#eaeffb] p-2 px-5 rounded-md">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.5 4H5.5C4.70435 4 3.94129 4.31607 3.37868 4.87868C2.81607 5.44129 2.5 6.20435 2.5 7V17C2.5 17.7956 2.81607 18.5587 3.37868 19.1213C3.94129 19.6839 4.70435 20 5.5 20H19.5C20.2956 20 21.0587 19.6839 21.6213 19.1213C22.1839 18.5587 22.5 17.7956 22.5 17V7C22.5 6.20435 22.1839 5.44129 21.6213 4.87868C21.0587 4.31607 20.2956 4 19.5 4ZM5.5 6H19.5C19.7652 6 20.0196 6.10536 20.2071 6.29289C20.3946 6.48043 20.5 6.73478 20.5 7L12.5 11.88L4.5 7C4.5 6.73478 4.60536 6.48043 4.79289 6.29289C4.98043 6.10536 5.23478 6 5.5 6ZM20.5 17C20.5 17.2652 20.3946 17.5196 20.2071 17.7071C20.0196 17.8946 19.7652 18 19.5 18H5.5C5.23478 18 4.98043 17.8946 4.79289 17.7071C4.60536 17.5196 4.5 17.2652 4.5 17V9.28L11.98 13.85C12.132 13.9378 12.3045 13.984 12.48 13.984C12.6555 13.984 12.828 13.9378 12.98 13.85L20.5 9.28V17Z" fill="#2F61D5"/>
@@ -47,13 +47,13 @@
                 </div>
             </li>
             <li>
-                <div class="flex items-center gap-x-5">
+                <div class="flex items-center gap-x-1 justify-center mobile:justify-normal tablet:gap-x-5 mobile:max-w-[300px]">
                     <img src="../assets/images/image 15.png" alt="eanjoman_logo">
                     <img src="../assets/images/image 16.png" alt="eNAMAD_logo">
                 </div>
             </li>
         </ul>
-        <ul class="grid grid-cols-4 mt-10 border-b-2 border-[#eaeffb]">
+        <ul class="child:py-3 grid grid-cols-1 mobile:grid-cols-2 minidesktop:grid-cols-4 mt-10 border-b-2 border-[#eaeffb]">
             <li>
                 <div>
                     <span class="font-IRANYekanBold text-lg">صفحات مهم</span>

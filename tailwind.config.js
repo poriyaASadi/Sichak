@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -15,7 +16,8 @@ export default {
         green : '#5DAF7A',
         red : '#E74242',
         primary_font : '#262626',
-        text_small : '#737373'
+        text_small : '#737373',
+        table : '#EDF1FB'
       },
       fontFamily : {
         "IRANYekanBold" : 'IRANYekanBold',
@@ -35,6 +37,7 @@ export default {
       addVariant('child' , '& > *'); 
       addVariant('child-hover' , '& > *:hover');
      },
+     require('flowbite/plugin')
   ],
 }
 

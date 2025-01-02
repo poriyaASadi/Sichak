@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+    @import "~plyr/dist/plyr.css";
     @font-face {
         font-family: "IRANYekanBold";
         src: url('./assets/fonts/IRANYekanBold.ttf') format('truetype');
